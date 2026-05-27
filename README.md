@@ -239,6 +239,10 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
 ## Uso de la API
 
+### Aclaración
+
+Dentro del repositorio se encuentra el archivo MELI/MELI.postman_collection. Allí se encuentran las querys que utilicé para las distintas pruebas. Recomiendo hacer uso de las mismas ya que poseé, entre otras cosas, logs maliciosos y querys mal ejecutadas para visualizar manejo de errores.
+
 ### Documentación interactiva Swagger
 
 Disponible en: `http://localhost:8000/docs`
