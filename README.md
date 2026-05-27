@@ -28,7 +28,8 @@ El sistema soporta dos modos de operación configurables via variable de entorno
 
 ### Apartado informativo
 
-EL dataset utilizado por defecto es uno generado teniendo en cuenta el challenge de riesgos y vulnerabilidades. Luego se realizaron los cambios pertinentes en el código para adaptarlo al dataset de Kaggle. Este no viene por defecto en el repositorio ya que era muy pesado y Github me tiraba error. Intenté solucionar esto último creando una EC2 en mi cuenta personal de AWS y levantando la dockerización, pero al realizar los ajuntes del security group para pegarle por el puerto 8000 resultó que tardó demasiado en procesar los 2.5M de datos para entrenar a los modelos de IA, sin emabrgo, luego se desarrollan las instrucciones de cómo descargar el .csv de Kaggle y el path correspondiente.
+    EL dataset utilizado por defecto es uno generado teniendo en cuenta el challenge de riesgos y vulnerabilidades. Luego se realizaron los cambios pertinentes en el código para adaptarlo al dataset de Kaggle. Este no viene por defecto en el repositorio ya que era muy pesado y Github me tiraba error. Intenté solucionar esto último creando una EC2 en mi cuenta personal de AWS y levantando la dockerización, pero al realizar los ajuntes del security group para pegarle por el puerto 8000 resultó que tardó demasiado en procesar los 2.5M de datos para entrenar a los modelos de IA, sin emabrgo, luego se desarrollan las instrucciones de cómo descargar el .csv de Kaggle y el path correspondiente.
+
 ---
 
 ## Arquitectura y flujo de agentes
