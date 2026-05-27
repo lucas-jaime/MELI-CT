@@ -1,0 +1,536 @@
+┌──(kali㉿kali)-[~]
+└─$ curl -s https://challengemp.org/wp-json/ | python3 -m json.tool | grep -E '"namespace"|"href"' | head -50
+            "namespace": "",
+                        "href": "https://challengemp.org/wp-json/"
+            "namespace": "",
+                        "href": "https://challengemp.org/wp-json/batch/v1"
+            "namespace": "oembed/1.0",
+                        "namespace": {
+                        "href": "https://challengemp.org/wp-json/oembed/1.0"
+            "namespace": "oembed/1.0",
+                        "href": "https://challengemp.org/wp-json/oembed/1.0/embed"
+            "namespace": "oembed/1.0",
+                        "href": "https://challengemp.org/wp-json/oembed/1.0/proxy"
+            "namespace": "jetpack/v4",
+                        "namespace": {
+                        "href": "https://challengemp.org/wp-json/jetpack/v4"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/backup-helper-script"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/database-object/backup"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/options/backup"
+            "namespace": "jetpack/v4",
+            "namespace": "jetpack/v4",
+            "namespace": "jetpack/v4",
+            "namespace": "jetpack/v4",
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/site/backup/undo-event"
+            "namespace": "jetpack/v4",
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/site/backup/preflight"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/jetpack-ai-jwt"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/plans"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/products"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/marketing/survey"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/connection/test"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/connection/test-wpcom"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/rewind"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/scan"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/connection/url"
+            "namespace": "jetpack/v4",
+                        "href": "https://challengemp.org/wp-json/jetpack/v4/tracking/settings"
+            "namespace": "jetpack/v4",
+                                                                                                                    
+┌──(kali㉿kali)-[~]
+└─$ curl -s "https://challengemp.org/wp-json/wp/v2/settings" | python3 -m json.tool
+{
+    "code": "rest_forbidden",
+    "message": "Lo siento, no tienes permisos para hacer eso.",
+    "data": {
+        "status": 401
+    }
+}
+                                                                                                                    
+┌──(kali㉿kali)-[~]
+└─$ curl -s "https://challengemp.org/wp-json/wp/v2/users?per_page=100" | python3 -m json.tool
+[
+    {
+        "id": 1,
+        "name": "user",
+        "url": "http://127.0.0.1",
+        "description": "",
+        "link": "https://challengemp.org/author/user/",
+        "slug": "user",
+        "avatar_urls": {
+            "24": "https://secure.gravatar.com/avatar/b58996c504c5638798eb6b511e6f49af?s=24&d=mm&r=g",
+            "48": "https://secure.gravatar.com/avatar/b58996c504c5638798eb6b511e6f49af?s=48&d=mm&r=g",
+            "96": "https://secure.gravatar.com/avatar/b58996c504c5638798eb6b511e6f49af?s=96&d=mm&r=g"
+        },
+        "meta": [],
+        "is_super_admin": true,
+        "woocommerce_meta": {
+            "variable_product_tour_shown": "",
+            "activity_panel_inbox_last_read": "",
+            "activity_panel_reviews_last_read": "",
+            "categories_report_columns": "",
+            "coupons_report_columns": "",
+            "customers_report_columns": "",
+            "orders_report_columns": "",
+            "products_report_columns": "",
+            "revenue_report_columns": "",
+            "taxes_report_columns": "",
+            "variations_report_columns": "",
+            "dashboard_sections": "",
+            "dashboard_chart_type": "",
+            "dashboard_chart_interval": "",
+            "dashboard_leaderboard_rows": "",
+            "homepage_layout": "",
+            "homepage_stats": "",
+            "task_list_tracked_started_tasks": "{\"products\":1}",
+            "help_panel_highlight_shown": "",
+            "android_app_banner_dismissed": ""
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://challengemp.org/wp-json/wp/v2/users/1"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://challengemp.org/wp-json/wp/v2/users"
+                }
+            ]
+        }
+    }
+]
+                                                                                                                    
+┌──(kali㉿kali)-[~]
+└─$ curl -s "https://challengemp.org/wp-json/wp/v2/media?per_page=20" | python3 -m json.tool | grep -E '"source_url"|"slug"|"mime_type"'
+        "slug": "woocommerce-placeholder",
+        "mime_type": "image/png",
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/woocommerce-placeholder-300x450.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/woocommerce-placeholder-100x100.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/woocommerce-placeholder-600x600.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/woocommerce-placeholder-300x300.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/woocommerce-placeholder-1024x1024.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/woocommerce-placeholder-150x150.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/woocommerce-placeholder-768x768.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/woocommerce-placeholder.png"
+        "source_url": "https://challengemp.org/wp-content/uploads/woocommerce-placeholder.png",
+        "slug": "surfboard-4051201_1280-1",
+        "mime_type": "image/webp",
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/surfboard-4051201_1280-1-300x200.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/surfboard-4051201_1280-1-150x150.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/surfboard-4051201_1280-1-768x511.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/surfboard-4051201_1280-1-300x300.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/surfboard-4051201_1280-1-896x540.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/surfboard-4051201_1280-1-300x450.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/surfboard-4051201_1280-1-600x399.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/surfboard-4051201_1280-1-100x100.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/surfboard-4051201_1280-1.webp"
+        "source_url": "https://challengemp.org/wp-content/uploads/2024/03/surfboard-4051201_1280-1.webp",
+        "slug": "helmet",
+        "mime_type": "image/webp",
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/helmet-150x150.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/helmet-100x100.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/helmet.webp"
+        "source_url": "https://challengemp.org/wp-content/uploads/2024/03/helmet.webp",
+        "slug": "beach_clouds_dawn_girl_ocean_recreation_sand_sea-1179063",
+        "mime_type": "image/webp",
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/beach_clouds_dawn_girl_ocean_recreation_sand_sea-1179063-300x202.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/beach_clouds_dawn_girl_ocean_recreation_sand_sea-1179063-150x150.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/beach_clouds_dawn_girl_ocean_recreation_sand_sea-1179063-300x300.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/beach_clouds_dawn_girl_ocean_recreation_sand_sea-1179063-300x300.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/beach_clouds_dawn_girl_ocean_recreation_sand_sea-1179063-100x100.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/beach_clouds_dawn_girl_ocean_recreation_sand_sea-1179063.webp"
+        "source_url": "https://challengemp.org/wp-content/uploads/2024/03/beach_clouds_dawn_girl_ocean_recreation_sand_sea-1179063.webp",
+        "slug": "d35aeeefe9467ecfe5595c186ddd-1629598",
+        "mime_type": "image/webp",
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/d35aeeefe9467ecfe5595c186ddd-1629598-300x200.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/d35aeeefe9467ecfe5595c186ddd-1629598-1024x683.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/d35aeeefe9467ecfe5595c186ddd-1629598-150x150.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/d35aeeefe9467ecfe5595c186ddd-1629598-768x512.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/d35aeeefe9467ecfe5595c186ddd-1629598-300x300.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/d35aeeefe9467ecfe5595c186ddd-1629598-1140x540.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/d35aeeefe9467ecfe5595c186ddd-1629598-300x450.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/d35aeeefe9467ecfe5595c186ddd-1629598-600x400.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/d35aeeefe9467ecfe5595c186ddd-1629598-100x100.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/d35aeeefe9467ecfe5595c186ddd-1629598.webp"
+        "source_url": "https://challengemp.org/wp-content/uploads/2024/03/d35aeeefe9467ecfe5595c186ddd-1629598.webp",
+        "slug": "inline_skate_sport_training_shoe_roll_active_sporty_healthy-635156",
+        "mime_type": "image/webp",
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635156-300x200.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635156-150x150.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635156-300x300.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635156-300x300.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635156-100x100.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635156.webp"
+        "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635156.webp",
+        "slug": "inline_skate_sport_training_shoe_roll_active_sporty_healthy-635169",
+        "mime_type": "image/webp",
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635169-300x200.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635169-150x150.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635169-300x300.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635169-300x300.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635169-100x100.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635169.webp"
+        "source_url": "https://challengemp.org/wp-content/uploads/2024/03/inline_skate_sport_training_shoe_roll_active_sporty_healthy-635169.webp",
+        "slug": "shoe_sport_training_sneaker_active_sporty_healthy_jog-635163",
+        "mime_type": "image/webp",
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/shoe_sport_training_sneaker_active_sporty_healthy_jog-635163-300x200.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/shoe_sport_training_sneaker_active_sporty_healthy_jog-635163-150x150.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/shoe_sport_training_sneaker_active_sporty_healthy_jog-635163-300x300.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/shoe_sport_training_sneaker_active_sporty_healthy_jog-635163-300x300.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/shoe_sport_training_sneaker_active_sporty_healthy_jog-635163-100x100.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/shoe_sport_training_sneaker_active_sporty_healthy_jog-635163.webp"
+        "source_url": "https://challengemp.org/wp-content/uploads/2024/03/shoe_sport_training_sneaker_active_sporty_healthy_jog-635163.webp",
+        "slug": "18174e4e2e4676337fa277b93b94-1633650",
+        "mime_type": "image/webp",
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/18174e4e2e4676337fa277b93b94-1633650-300x200.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/18174e4e2e4676337fa277b93b94-1633650-1024x683.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/18174e4e2e4676337fa277b93b94-1633650-150x150.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/18174e4e2e4676337fa277b93b94-1633650-768x512.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/18174e4e2e4676337fa277b93b94-1633650-300x300.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/18174e4e2e4676337fa277b93b94-1633650-1140x540.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/18174e4e2e4676337fa277b93b94-1633650-300x450.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/18174e4e2e4676337fa277b93b94-1633650-600x400.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/18174e4e2e4676337fa277b93b94-1633650-100x100.webp"
+                    "mime_type": "image/webp",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/18174e4e2e4676337fa277b93b94-1633650.webp"
+        "source_url": "https://challengemp.org/wp-content/uploads/2024/03/18174e4e2e4676337fa277b93b94-1633650.webp",
+        "slug": "woocommerce-placeholder-2",
+        "mime_type": "image/png",
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/woocommerce-placeholder-300x300.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/woocommerce-placeholder-1024x1024.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/woocommerce-placeholder-150x150.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/woocommerce-placeholder-768x768.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/woocommerce-placeholder-300x300.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/woocommerce-placeholder-1140x540.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/woocommerce-placeholder-300x450.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/woocommerce-placeholder-600x600.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/woocommerce-placeholder-100x100.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2024/03/woocommerce-placeholder.png"
+        "source_url": "https://challengemp.org/wp-content/uploads/2024/03/woocommerce-placeholder.png",
+        "slug": "spacr-logo",
+        "mime_type": "image/png",
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2023/09/Spacr-logo-150x50.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2023/09/Spacr-logo-100x50.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2023/09/Spacr-logo.png"
+        "source_url": "https://challengemp.org/wp-content/uploads/2023/09/Spacr-logo.png",
+        "slug": "brush01",
+        "mime_type": "image/png",
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2023/09/brush01-300x284.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2023/09/brush01-150x150.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2023/09/brush01-300x300.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2023/09/brush01-300x450.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2023/09/brush01-100x100.png"
+                    "mime_type": "image/png",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2023/09/brush01.png"
+        "source_url": "https://challengemp.org/wp-content/uploads/2023/09/brush01.png",
+        "slug": "woman-glasses-smile-vision-care-sleeve-eyewear-1653209-pxhere-com",
+        "mime_type": "image/jpeg",
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/woman-glasses-smile-vision-care-sleeve-eyewear-1653209-pxhere.com_-300x200.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/woman-glasses-smile-vision-care-sleeve-eyewear-1653209-pxhere.com_-150x150.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/woman-glasses-smile-vision-care-sleeve-eyewear-1653209-pxhere.com_-768x512.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/woman-glasses-smile-vision-care-sleeve-eyewear-1653209-pxhere.com_-300x300.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/woman-glasses-smile-vision-care-sleeve-eyewear-1653209-pxhere.com_-1024x540.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/woman-glasses-smile-vision-care-sleeve-eyewear-1653209-pxhere.com_-300x450.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/woman-glasses-smile-vision-care-sleeve-eyewear-1653209-pxhere.com_-600x400.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/woman-glasses-smile-vision-care-sleeve-eyewear-1653209-pxhere.com_-100x100.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/woman-glasses-smile-vision-care-sleeve-eyewear-1653209-pxhere.com_.jpg"
+        "source_url": "https://challengemp.org/wp-content/uploads/2019/04/woman-glasses-smile-vision-care-sleeve-eyewear-1653209-pxhere.com_.jpg",
+        "slug": "watch-hand-time-green-metal-black-1201858-pxhere-com",
+        "mime_type": "image/jpeg",
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-time-green-metal-black-1201858-pxhere.com_-300x200.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-time-green-metal-black-1201858-pxhere.com_-150x150.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-time-green-metal-black-1201858-pxhere.com_-768x512.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-time-green-metal-black-1201858-pxhere.com_-300x300.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-time-green-metal-black-1201858-pxhere.com_-1024x540.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-time-green-metal-black-1201858-pxhere.com_-300x450.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-time-green-metal-black-1201858-pxhere.com_-600x400.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-time-green-metal-black-1201858-pxhere.com_-100x100.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-time-green-metal-black-1201858-pxhere.com_.jpg"
+        "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-time-green-metal-black-1201858-pxhere.com_.jpg",
+        "slug": "watch-hand-leather-clock-strap-panerai-watches-629818-pxhere-com",
+        "mime_type": "image/jpeg",
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-leather-clock-strap-panerai-watches-629818-pxhere.com_-300x200.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-leather-clock-strap-panerai-watches-629818-pxhere.com_-150x150.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-leather-clock-strap-panerai-watches-629818-pxhere.com_-768x512.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-leather-clock-strap-panerai-watches-629818-pxhere.com_-300x300.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-leather-clock-strap-panerai-watches-629818-pxhere.com_-1024x540.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-leather-clock-strap-panerai-watches-629818-pxhere.com_-300x450.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-leather-clock-strap-panerai-watches-629818-pxhere.com_-600x400.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-leather-clock-strap-panerai-watches-629818-pxhere.com_-100x100.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-leather-clock-strap-panerai-watches-629818-pxhere.com_.jpg"
+        "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-leather-clock-strap-panerai-watches-629818-pxhere.com_.jpg",
+        "slug": "watch-hand-clock-time-metal-fashion-1067328-pxhere-com",
+        "mime_type": "image/jpeg",
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-clock-time-metal-fashion-1067328-pxhere.com_-300x200.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-clock-time-metal-fashion-1067328-pxhere.com_-150x150.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-clock-time-metal-fashion-1067328-pxhere.com_-768x511.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-clock-time-metal-fashion-1067328-pxhere.com_-300x300.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-clock-time-metal-fashion-1067328-pxhere.com_-1024x540.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-clock-time-metal-fashion-1067328-pxhere.com_-300x450.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-clock-time-metal-fashion-1067328-pxhere.com_-600x399.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-clock-time-metal-fashion-1067328-pxhere.com_-100x100.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-clock-time-metal-fashion-1067328-pxhere.com_.jpg"
+        "source_url": "https://challengemp.org/wp-content/uploads/2019/04/watch-hand-clock-time-metal-fashion-1067328-pxhere.com_.jpg",
+        "slug": "casual-fashion-man-male-model-boy-1634246-pxhere-com",
+        "mime_type": "image/jpeg",
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/casual-fashion-man-male-model-boy-1634246-pxhere.com_-200x300.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/casual-fashion-man-male-model-boy-1634246-pxhere.com_-150x150.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/casual-fashion-man-male-model-boy-1634246-pxhere.com_-300x300.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/casual-fashion-man-male-model-boy-1634246-pxhere.com_-600x540.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/casual-fashion-man-male-model-boy-1634246-pxhere.com_-300x450.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/casual-fashion-man-male-model-boy-1634246-pxhere.com_-100x100.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/casual-fashion-man-male-model-boy-1634246-pxhere.com_.jpg"
+        "source_url": "https://challengemp.org/wp-content/uploads/2019/04/casual-fashion-man-male-model-boy-1634246-pxhere.com_.jpg",
+        "slug": "walking-shoe-light-girl-woman-white-722547-pxhere-com",
+        "mime_type": "image/jpeg",
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/walking-shoe-light-girl-woman-white-722547-pxhere.com_-300x200.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/walking-shoe-light-girl-woman-white-722547-pxhere.com_-150x150.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/walking-shoe-light-girl-woman-white-722547-pxhere.com_-768x512.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/walking-shoe-light-girl-woman-white-722547-pxhere.com_-300x300.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/walking-shoe-light-girl-woman-white-722547-pxhere.com_-300x450.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/walking-shoe-light-girl-woman-white-722547-pxhere.com_-600x400.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/walking-shoe-light-girl-woman-white-722547-pxhere.com_-100x100.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/walking-shoe-light-girl-woman-white-722547-pxhere.com_.jpg"
+        "source_url": "https://challengemp.org/wp-content/uploads/2021/09/walking-shoe-light-girl-woman-white-722547-pxhere.com_.jpg",
+        "slug": "shoe-sport-running-run-leg-spring-880113-pxhere-com-1",
+        "mime_type": "image/jpeg",
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/shoe-sport-running-run-leg-spring-880113-pxhere.com-1-300x225.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/shoe-sport-running-run-leg-spring-880113-pxhere.com-1-150x150.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/shoe-sport-running-run-leg-spring-880113-pxhere.com-1-768x576.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/shoe-sport-running-run-leg-spring-880113-pxhere.com-1-300x300.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/shoe-sport-running-run-leg-spring-880113-pxhere.com-1-800x540.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/shoe-sport-running-run-leg-spring-880113-pxhere.com-1-300x450.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/shoe-sport-running-run-leg-spring-880113-pxhere.com-1-600x450.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/shoe-sport-running-run-leg-spring-880113-pxhere.com-1-100x100.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2021/09/shoe-sport-running-run-leg-spring-880113-pxhere.com-1.jpg"
+        "source_url": "https://challengemp.org/wp-content/uploads/2021/09/shoe-sport-running-run-leg-spring-880113-pxhere.com-1.jpg",
+        "slug": "stocksnap_41otx8qxsk-jpg",
+        "mime_type": "image/jpeg",
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK-300x200.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK-1024x682.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK-150x150.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK-768x512.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK-300x300.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK-1140x540.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK-300x450.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK-600x400.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK-100x100.jpg"
+                    "mime_type": "image/jpeg",
+                    "source_url": "https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK.jpg"
+        "source_url": "https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK.jpg",
+                                                                                                                    
+┌──(kali㉿kali)-[~]
+└─$ curl -s "https://challengemp.org/wp-json/wc/v3/orders" | python3 -m json.tool
+{
+    "code": "woocommerce_rest_cannot_view",
+    "message": "Lo siento, no puedes listar recursos.",
+    "data": {
+        "status": 401
+    }
+}
+                                                                                                                    
+┌──(kali㉿kali)-[~]
+└─$ curl -s "https://challengemp.org/wp-json/wc/v3/customers" | python3 -m json.tool
+{
+    "code": "woocommerce_rest_cannot_view",
+    "message": "Lo siento, no puedes listar recursos.",
+    "data": {
+        "status": 401
+    }
+}
+                                                                                                                    
+┌──(kali㉿kali)-[~]
+└─$ curl -s "https://challengemp.org/wp-json/wc/v2/settings" | python3 -m json.tool
+{
+    "code": "woocommerce_rest_cannot_view",
+    "message": "Lo siento, no puedes listar recursos.",
+    "data": {
+        "status": 401
+    }
+}
+                                                                                                                    
+┌──(kali㉿kali)-[~]
+└─$ curl -s "https://challengemp.org/wp-json/mp-mercadopago/v1/" | python3 -m json.tool
+{
+    "code": "rest_no_route",
+    "message": "No se ha encontrado ninguna ruta que coincida con la URL y el m\u00e9todo de la solicitud.",
+    "data": {
+        "status": 404
+    }
+}
+                                                                                                                    
+┌──(kali㉿kali)-[~]
+└─$ curl -s "https://challengemp.org/wp-json/wc-mercadopago/v1/" | python3 -m json.tool
+{
+    "code": "rest_no_route",
+    "message": "No se ha encontrado ninguna ruta que coincida con la URL y el m\u00e9todo de la solicitud.",
+    "data": {
+        "status": 404
+    }
+}
+                  

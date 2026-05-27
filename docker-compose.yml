@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  anomaly-detection-api:
+    build: .
+    container_name: anomaly-detection-api
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      # Cambiar a "kaggle" para usar el dataset CICIDS2017
+      # Requiere tener app/data/cicids2017.csv presente
+      - DATASET_MODE=synthetic
+      ####### - DATASET_MODE=kaggle ######
+    volumes:
+      # Monta la carpeta data para que el CSV de Kaggle sea accesible
+      - ./app/data:/app/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

@@ -1,0 +1,508 @@
+└─$ curl https://challengemp.org/wp-config_old.txt       
+<!DOCTYPE html>
+<html lang="es-CO">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="profile" href="http://gmpg.org/xfn/11">
+                                                <script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+                                <title>No se encontró la página &#8211; Challenge MP</title>
+<meta name='robots' content='max-image-preview:large' />
+<script>window._wca = window._wca || [];</script>
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//sdk.mercadopago.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Challenge MP &raquo; Feed" href="https://challengemp.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Challenge MP &raquo; RSS de los comentarios" href="https://challengemp.org/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/challengemp.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.8"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+        img.wp-smiley, img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 0.07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+        }
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://challengemp.org/wp-includes/css/dist/block-library/style.min.css?ver=6.5.8' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='mediaelement-css' href='https://challengemp.org/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://challengemp.org/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.5.8' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css' type='text/css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='jquery-selectBox-css' href='https://challengemp.org/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox.css?ver=1.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcwl-font-awesome-css' href='https://challengemp.org/wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css' href='//challengemp.org/wp-content/plugins/woocommerce/assets/css/prettyPhoto.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcwl-main-css' href='https://challengemp.org/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style.css?ver=3.35.0' type='text/css' media='all' />
+<style id='yith-wcwl-main-inline-css' type='text/css'>
+.yith-wcwl-share li a{color: #FFFFFF;}.yith-wcwl-share li a:hover{color: #FFFFFF;}.yith-wcwl-share a.facebook{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.facebook:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.twitter{background: #45AFE2; background-color: #45AFE2;}.yith-wcwl-share a.twitter:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.pinterest{background: #AB2E31; background-color: #AB2E31;}.yith-wcwl-share a.pinterest:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.email{background: #FBB102; background-color: #FBB102;}.yith-wcwl-share a.email:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.whatsapp{background: #00A901; background-color: #00A901;}.yith-wcwl-share a.whatsapp:hover{background: #39599E; background-color: #39599E;}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='envo-extra-css' href='https://challengemp.org/wp-content/plugins/envo-extra/css/style.css?ver=1.8.25' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://challengemp.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=8.9.5' type='text/css' media='all' />
+<style id='woocommerce-layout-inline-css' type='text/css'>
+
+        .infinite-scroll .woocommerce-pagination {
+                display: none;
+        }
+</style>
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://challengemp.org/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=8.9.5' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://challengemp.org/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=8.9.5' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='jquery-colorbox-css' href='https://challengemp.org/wp-content/plugins/yith-woocommerce-compare/assets/css/colorbox.css?ver=1.4.21' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-woocompare-widget-css' href='https://challengemp.org/wp-content/plugins/yith-woocommerce-compare/assets/css/widget.css?ver=2.39.0' type='text/css' media='all' />
+<link rel='stylesheet' id='hc-offcanvas-nav-css' href='https://challengemp.org/wp-content/themes/entr/assets/css/hc-offcanvas-nav.min.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://challengemp.org/wp-content/themes/entr/assets/css/bootstrap.css?ver=3.3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='entr-stylesheet-css' href='https://challengemp.org/wp-content/themes/entr/style.css?ver=6.5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='entr-woo-stylesheet-css' href='https://challengemp.org/wp-content/themes/entr/assets/css/woocommerce.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='spacr-stylesheet-css' href='https://challengemp.org/wp-content/themes/spacr/style.css?ver=1.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='entr-fonts-css' href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900&#038;subset=cyrillic%2Ccyrillic-ext%2Cgreek%2Cgreek-ext%2Clatin-ext%2Cvietnamese' type='text/css' media='all' />
+<link rel='stylesheet' id='line-awesome-css' href='https://challengemp.org/wp-content/themes/entr/assets/css/line-awesome.min.css?ver=1.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wc_mercadopago_checkout_components-css' href='https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/css/checkouts/mp-plugins-components.min.css?ver=7.5.1' type='text/css' media='all' />
+<script type="text/javascript" src="https://challengemp.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.9.5" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Ver carrito","cart_url":"https:\/\/challengemp.org\/cart-2\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.9.5" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.9.5" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.9.5" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://stats.wp.com/s-202621.js" id="woocommerce-analytics-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_dcd0833e9e6b23ea546f768f950381c0","fragment_name":"wc_fragments_dcd0833e9e6b23ea546f768f950381c0","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=8.9.5" id="wc-cart-fragments-js" defer="defer" data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://challengemp.org/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://challengemp.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.5.8" />
+<meta name="generator" content="WooCommerce 8.9.5" />
+        <style>img#wpstats{display:none}</style>
+                        <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+        <meta name="generator" content="Elementor 3.21.8; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, e_lazyload; settings: css_print_method-external, google_font-enabled, font_display-auto">
+                        <style>
+                                .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+                                .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                                        background-image: none !important;
+                                }
+                                @media screen and (max-height: 1024px) {
+                                        .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+                                        .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                                                background-image: none !important;
+                                        }
+                                }
+                                @media screen and (max-height: 640px) {
+                                        .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+                                        .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                                                background-image: none !important;
+                                        }
+                                }
+                        </style>
+                                    <style type="text/css" id="entr-header-css">
+            
+                                .site-title,
+                    .site-description {
+                        position: absolute;
+                        clip: rect(1px, 1px, 1px, 1px);
+                    }
+            
+            </style>
+            <style id="kirki-inline-styles"></style>    </head>
+    <body id="blog" class="error404 wp-custom-logo theme-entr header-busnav woo-on woocommerce-no-js elementor-default">
+                <a class="skip-link screen-reader-text" href="#site-content">Skip to the content</a>      <div class="page-wrap">
+                    <div class="top-bar-section container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div id="block-8" class="widget widget_block widget_text col-sm-4">
+<p>Welcome to free Our Store</p>
+</div><div id="block-9" class="widget widget_block widget_text col-sm-4">
+<p class="has-small-font-size"><em>This is top bar widget area. To edit it, go to Appearance - Widgets</em></p>
+</div><div id="block-10" class="widget widget_block col-sm-4"><i class="las la-envelope"></i> + 123 654 6548 || <i class="las la-phone"></i> info@your-mail.com</div>                    </div>
+                </div>
+            </div>
+                <div class="site-header title-header container-fluid">
+                                <div class="container" >
+                                        <div class="heading-row row" >
+                                                        <div class="site-heading">    
+                <div class="site-branding-logo">
+                        <a href="https://challengemp.org/" class="custom-logo-link" rel="home"><img width="170" height="50" src="https://challengemp.org/wp-content/uploads/2023/09/Spacr-logo.png" class="custom-logo" alt="Challenge MP" decoding="async" /></a>             </div>
+                <div class="site-branding-text">
+                                                        <p class="site-title"><a href="https://challengemp.org/" rel="home">Challenge MP</a></p>
+
+                                        </div><!-- .site-branding-text -->
+        </div>
+                <div class="header-widget-area">
+          <div class="menu-search-widget">
+                <div class="widget woocommerce widget_product_search"><form role="search" method="get" class="woocommerce-product-search" action="https://challengemp.org/">
+        <label class="screen-reader-text" for="woocommerce-product-search-field-0">Buscar por:</label>
+        <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Buscar productos&hellip;" value="" name="s" />
+        <button type="submit" value="Buscar" class="">Buscar</button>
+        <input type="hidden" name="post_type" value="product" />
+</form>
+</div>          </div>
+                                        <div class="site-heading-sidebar" >
+                                <div id="block-7" class="widget widget_block">Popular searches: <a href="#">Women </a>// <a href="#">Modern</a> // <a href="#">Men</a> // <a href="#">Watches</a> // <a href="#">New</a> // <a href="#">Sale</a></div>                 </div>
+                        </div>
+        <div class="header-right" >        <div class="menu-button visible-xs" >
+            <div class="navbar-header">
+                                <a href="#" id="main-menu-panel" class="toggle menu-panel" data-panel="main-menu-panel">
+                                        <span></span>
+                                </a>
+            </div>
+        </div>
+                    <div class="header-cart">
+                <div class="header-cart-block">
+                    <div class="header-cart-inner">
+                        
+        <a class="cart-contents" href="#" data-tooltip="Cart" title="Cart">
+            <i class="la la-shopping-bag"><span class="count">0</span></i>
+            <div class="amount-cart hidden-xs">&#036;&nbsp;0,00</div> 
+        </a>
+                            </div>
+                </div>
+            </div>
+                    <div class="header-my-account">
+            <div class="header-login"> 
+                <a href="https://challengemp.org/my-account-2/" data-tooltip="My Account" title="My Account">
+                    <i class="la la-user"></i>
+                </a>
+            </div>
+        </div>
+                    <div class="header-wishlist">
+                <a href="https://challengemp.org/wishlist/" data-tooltip="Wishlist" title="Wishlist">
+                    <i class="lar la-heart"></i>
+                </a>
+            </div>
+                        <div class="header-compare product">
+                <a class="compare added" rel="nofollow" href="/wp-config_old.txt?action=yith-woocompare-view-table&#038;iframe=yes" data-tooltip="Compare" title="Compare">
+                    <i class="la la-sync"></i>
+                </a>
+            </div>
+            </div>                                      </div>
+                                </div>
+                        </div>
+                                <div class="site-menu menu-header container-fluid">
+                                <div class="container" >
+                                        <div class="heading-row row" >
+                                                        <div class="menu-heading">
+                <nav id="site-navigation" class="navbar navbar-default">
+                        <div id="theme-menu" class="menu-container"><ul id="menu-main-menu" class="nav navbar-nav navbar-left"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-631" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children dropdown menu-item-631 nav-item"><a title="Home" href="https://challengemp.org/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-631">Home<span class="menu-description">NEW!</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-631" role="menu">
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-632" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-632 nav-item"><a title="Homepage #2" href="https://challengemp.org/homepage-2/" class="dropdown-item">Homepage #2</a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-633 nav-item"><a title="Homepage #3" href="https://challengemp.org/homepage-3/" class="dropdown-item">Homepage #3</a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-635 nav-item"><a title="Homepage #4" href="https://challengemp.org/homepage-4/" class="dropdown-item">Homepage #4</a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-634" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-634 nav-item"><a title="Homepage #5" href="https://challengemp.org/homepage-5/" class="dropdown-item">Homepage #5</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children dropdown menu-item-657 nav-item"><a title="Home" href="https://challengemp.org/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-657">Home<span class="menu-description">NEW!</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-657" role="menu">
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-658 nav-item"><a title="Homepage #2" href="https://challengemp.org/homepage-2/" class="dropdown-item">Homepage #2</a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-659 nav-item"><a title="Homepage #3" href="https://challengemp.org/homepage-3/" class="dropdown-item">Homepage #3</a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-661 nav-item"><a title="Homepage #4" href="https://challengemp.org/homepage-4/" class="dropdown-item">Homepage #4</a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-660 nav-item"><a title="Homepage #5" href="https://challengemp.org/homepage-5/" class="dropdown-item">Homepage #5</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-685" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-685 nav-item"><a title="Shop" href="https://challengemp.org/shop-2/" class="nav-link">Shop</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-683 nav-item"><a title="About Us" href="https://challengemp.org/about-us/" class="nav-link">About Us</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684 nav-item"><a title="Contact" href="https://challengemp.org/contact/" class="nav-link">Contact</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-682" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-682 nav-item"><a title="Blog" href="https://challengemp.org/blog/" class="nav-link">Blog</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-668" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-668 nav-item"><a title="Products" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-668">Products<span class="menu-description">Season Sale!</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-668" role="menu">
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-689" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-689 nav-item"><a title="Single Product" href="https://challengemp.org/product/black-trousers/" class="dropdown-item">Single Product</a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-686" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-686 nav-item"><a title="Grouped Product" href="https://challengemp.org/product/top-pants-upper/" class="dropdown-item">Grouped Product</a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-687" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-687 nav-item"><a title="Sale Product" href="https://challengemp.org/product/single-shirt/" class="dropdown-item">Sale Product<span class="menu-description">Sale -20%</span></a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-688" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-688 nav-item"><a title="External Product" href="https://challengemp.org/product/womens-dress/" class="dropdown-item">External Product</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-644" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-644 nav-item"><a title="Products" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-644">Products<span class="menu-description">Season Sale!</span></a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-644" role="menu">
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-656" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-656 nav-item"><a title="Single Product" href="https://challengemp.org/product/black-trousers/" class="dropdown-item">Single Product</a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-653" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-653 nav-item"><a title="Grouped Product" href="https://challengemp.org/product/top-pants-upper/" class="dropdown-item">Grouped Product</a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-654" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-654 nav-item"><a title="Sale Product" href="https://challengemp.org/product/single-shirt/" class="dropdown-item">Sale Product<span class="menu-description">Sale -20%</span></a></li>
+        <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-655" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-655 nav-item"><a title="External Product" href="https://challengemp.org/product/womens-dress/" class="dropdown-item">External Product</a></li>
+</ul>
+</li>
+</ul></div><div id="my-menu-right" class="menu-container"><ul id="menu-main-menu-right" class="nav navbar-nav navbar-right"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-59" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59 nav-item"><a title="Facebook" href="https://www.facebook.com/" class="nav-link">Facebook</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-639" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-639 nav-item"><a title="Facebook" href="https://www.facebook.com/" class="nav-link">Facebook</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-669 nav-item"><a title="Facebook" href="https://www.facebook.com/" class="nav-link">Facebook</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-60" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60 nav-item"><a title="Twitter" href="https://www.twitter.com/" class="nav-link">Twitter</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-640" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-640 nav-item"><a title="Twitter" href="https://www.twitter.com/" class="nav-link">Twitter</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-670 nav-item"><a title="Twitter" href="https://www.twitter.com/" class="nav-link">Twitter</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61 nav-item"><a title="WP" href="https://www.wordpress.org/" class="nav-link">WP</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-641" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-641 nav-item"><a title="WP" href="https://www.wordpress.org/" class="nav-link">WP</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-671 nav-item"><a title="WP" href="https://www.wordpress.org/" class="nav-link">WP</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62 nav-item"><a title="Instagram" href="https://www.instagram.com/" class="nav-link">Instagram</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-642" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-642 nav-item"><a title="Instagram" href="https://www.instagram.com/" class="nav-link">Instagram</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-672" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-672 nav-item"><a title="Instagram" href="https://www.instagram.com/" class="nav-link">Instagram</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-386" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-386 nav-item"><a title="Youtube" href="https://www.youtube.com/" class="nav-link">Youtube</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-643" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-643 nav-item"><a title="Youtube" href="https://www.youtube.com/" class="nav-link">Youtube</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-673" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-673 nav-item"><a title="Youtube" href="https://www.youtube.com/" class="nav-link">Youtube</a></li>
+</ul></div>             </nav>
+        </div>
+                                                </div>
+                                </div>
+                        </div>
+          <div id="site-content" class="container main-container" role="main">
+            <div class="page-area">       
+<div class="row">
+        <div class="col-md-9">
+                <div class="error-template text-center">
+                        <h1>Nothing here</h1>
+                        <p class="error-details">
+                                It looks like nothing was found at this location. Maybe try a search?                        </p>
+                        <form role="search" method="get" class="search-form" action="https://challengemp.org/">
+                                <label>
+                                        <span class="screen-reader-text">Buscar:</span>
+                                        <input type="search" class="search-field" placeholder="Buscar &hellip;" value="" name="s" />
+                                </label>
+                                <input type="submit" class="search-submit" value="Buscar" />
+                        </form>    
+                </div>
+        </div>
+            <aside id="sidebar" class="col-md-3">
+        <div id="block-2" class="widget widget_block widget_search"><form role="search" method="get" action="https://challengemp.org/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"    ><label class="wp-block-search__label" for="wp-block-search__input-1" >Buscar</label><div class="wp-block-search__inside-wrapper " ><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required /><button aria-label="Buscar" class="wp-block-search__button wp-element-button" type="submit" >Buscar</button></div></form></div><div id="block-3" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Recent Posts</h2><ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://challengemp.org/2024/03/13/hola-mundo/">¡Hola mundo!</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://challengemp.org/2019/04/29/etiam-bibendum-elit-eget-erat/">Etiam bibendum elit eget erat</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://challengemp.org/2019/04/29/aliquam-erat-volutpat/">Aliquam erat volutpat</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://challengemp.org/2019/04/29/aliquam-id-dolor/">Aliquam id dolor</a></li>
+<li><a class="wp-block-latest-posts__post-title" href="https://challengemp.org/2019/04/29/quis-autem-vel-eum-iure/">Quis autem vel eum iure</a></li>
+</ul></div></div></div><div id="block-4" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Recent Comments</h2><ol class="wp-block-latest-comments"><li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><a class="wp-block-latest-comments__comment-author" href="https://wordpress.org/">Un Comentarista de WordPress</a> en <a class="wp-block-latest-comments__comment-link" href="https://challengemp.org/2024/03/13/hola-mundo/#comment-9">¡Hola mundo!</a></footer></article></li></ol></div></div></div><div id="block-5" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Archives</h2><ul class="wp-block-archives-list wp-block-archives">   <li><a href='https://challengemp.org/2024/03/'>marzo 2024</a></li>
+        <li><a href='https://challengemp.org/2019/04/'>abril 2019</a></li>
+</ul></div></div></div><div id="block-6" class="widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Categories</h2><ul class="wp-block-categories-list wp-block-categories">       <li class="cat-item cat-item-16"><a href="https://challengemp.org/category/category-1/">Category #1</a>
+</li>
+        <li class="cat-item cat-item-17"><a href="https://challengemp.org/category/category-2/">Category #2</a>
+</li>
+        <li class="cat-item cat-item-18"><a href="https://challengemp.org/category/sin-categoria/">Sin categoría</a>
+</li>
+</ul></div></div></div><div id="yith-woocompare-widget-1" class="widget yith-woocompare-widget"><div class="widget-title"><h3>Compare Box</h3></div>
+            <ul class="products-list" data-lang="">
+                <li class="list_empty">No hay productos que comparar</li>            </ul>
+
+            <a href="https://challengemp.org?action=yith-woocompare-remove-product&id=all" data-product_id="all" class="clear-all" rel="nofollow">Eliminar todos</a>
+            <a href="/wp-config_old.txt?action=yith-woocompare-view-table&iframe=yes" class="compare added button" rel="nofollow">Compare</a>
+
+            </div><div id="woocommerce_widget_cart-1" class="widget woocommerce widget_shopping_cart"><div class="widget-title"><h3>Cart</h3></div><div class="widget_shopping_cart_content"></div></div><div id="search-1" class="widget widget_search"><div class="widget-title"><h3>Search Products</h3></div><form role="search" method="get" class="search-form" action="https://challengemp.org/">
+                                <label>
+                                        <span class="screen-reader-text">Buscar:</span>
+                                        <input type="search" class="search-field" placeholder="Buscar &hellip;" value="" name="s" />
+                                </label>
+                                <input type="submit" class="search-submit" value="Buscar" />
+                        </form></div><div id="woocommerce_products-1" class="widget woocommerce widget_products"><div class="widget-title"><h3>Products</h3></div><ul class="product_list_widget"><li>
+
+        <a href="https://challengemp.org/product/poleron/">
+                <img fetchpriority="high" width="300" height="450" src="https://challengemp.org/wp-content/uploads/woocommerce-placeholder-300x450.png" class="woocommerce-placeholder wp-post-image" alt="Marcador" decoding="async" />               <span class="product-title">Poleron</span>
+        </a>
+
+
+        <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;500,00</bdi></span>
+        </li>
+<li>
+
+        <a href="https://challengemp.org/product/womens-dress/">
+                <img width="300" height="450" src="https://challengemp.org/wp-content/uploads/2019/04/StockSnap_41OTX8QXSK-300x450.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" /><span class="product-title">Women's dress</span>
+        </a>
+
+
+        <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;20,00</bdi></span>
+        </li>
+<li>
+
+        <a href="https://challengemp.org/product/bikini/">
+                <img loading="lazy" width="300" height="450" src="https://challengemp.org/wp-content/uploads/2019/04/StockSnap_MO7PZ7AYIC-300x450.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" />          <span class="product-title">Bikini</span>
+        </a>
+
+
+        <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;25,00</bdi></span></del> <span class="screen-reader-text">Original price was: &#036;&nbsp;25,00.</span><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;21,00</bdi></span></ins><span class="screen-reader-text">Current price is: &#036;&nbsp;21,00.</span>
+        </li>
+<li>
+
+        <a href="https://challengemp.org/product/single-shirt/">
+                <img loading="lazy" width="300" height="450" src="https://challengemp.org/wp-content/uploads/2019/04/StockSnap_QXVSHD5FLF-300x450.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" />          <span class="product-title">Single Shirt</span>
+        </a>
+
+
+        <del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;30,00</bdi></span></del> <span class="screen-reader-text">Original price was: &#036;&nbsp;30,00.</span><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;20,00</bdi></span></ins><span class="screen-reader-text">Current price is: &#036;&nbsp;20,00.</span>
+        </li>
+<li>
+
+        <a href="https://challengemp.org/product/polo-t-shirt/">
+                <img loading="lazy" width="300" height="450" src="https://challengemp.org/wp-content/uploads/2019/04/StockSnap_TE9BDY8EYB-300x450.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" />          <span class="product-title">Polo T-shirt</span>
+        </a>
+
+
+        <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;25,00</bdi></span>
+        </li>
+</ul></div>    </aside>
+</div>
+                                </div><!-- end main-container -->
+                        </div><!-- end page-area -->
+
+                                        <footer id="colophon" class="footer-credits container-fluid">
+                        <div class="container">    
+                                <div class="footer-credits-text text-center list-unstyled">
+                                        Theme by <a href="https://envothemes.com/">EnvoThemes</a>                            </div>
+                        </div>
+                </footer>
+
+                </div><!-- end page-wrap -->
+
+                                        <script type='text/javascript'>
+                                const lazyloadRunObserver = () => {
+                                        const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+                                        const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+                                                entries.forEach( ( entry ) => {
+                                                        if ( entry.isIntersecting ) {
+                                                                let lazyloadBackground = entry.target;
+                                                                if( lazyloadBackground ) {
+                                                                        lazyloadBackground.classList.add( 'e-lazyloaded' );
+                                                                }
+                                                                lazyloadBackgroundObserver.unobserve( entry.target );
+                                                        }
+                                                });
+                                        }, { rootMargin: '200px 0px 200px 0px' } );
+                                        lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+                                                lazyloadBackgroundObserver.observe( lazyloadBackground );
+                                        } );
+                                };
+                                const events = [
+                                        'DOMContentLoaded',
+                                        'elementor/lazyload/observe',
+                                ];
+                                events.forEach( ( event ) => {
+                                        document.addEventListener( event, lazyloadRunObserver );
+                                } );
+                        </script>
+                                <script type='text/javascript'>
+                (function () {
+                        var c = document.body.className;
+                        c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+                        document.body.className = c;
+                })();
+        </script>
+        <link rel='stylesheet' id='wc-blocks-style-css' href='https://challengemp.org/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-8.9.5' type='text/css' media='all' />
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0" id="jquery-selectBox-js"></script>
+<script type="text/javascript" src="//challengemp.org/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6" id="prettyPhoto-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="jquery-yith-wcwl-js-extra">
+/* <![CDATA[ */
+var yith_wcwl_l10n = {"ajax_url":"\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","yith_wcwl_button_position":"after_add_to_cart","multi_wishlist":"","hide_add_button":"1","enable_ajax_loading":"","ajax_loader_url":"https:\/\/challengemp.org\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg","remove_from_wishlist_after_add_to_cart":"1","is_wishlist_responsive":"1","time_to_close_prettyphoto":"3000","fragments_index_glue":".","reload_on_found_variation":"1","mobile_media_query":"768","labels":{"cookie_disabled":"Lo siento, pero esta caracter\u00edstica solo est\u00e1 disponible si las cookies de tu navegador est\u00e1n habilitadas.","added_to_cart_message":"<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Producto a\u00f1adido al carrito con \u00e9xito<\/div><\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem","load_mobile_action":"load_mobile","delete_item_action":"delete_item","save_title_action":"save_title","save_privacy_action":"save_privacy","load_fragments":"load_fragments"},"nonce":{"add_to_wishlist_nonce":"745d688cd3","remove_from_wishlist_nonce":"4533758575","reload_wishlist_and_adding_elem_nonce":"8af70e88aa","load_mobile_nonce":"8de6b57203","delete_item_nonce":"380db3af15","save_title_nonce":"2dd14b69fb","save_privacy_nonce":"a04132597b","load_fragments_nonce":"f2daff692f"},"redirect_after_ask_estimate":"","ask_estimate_redirect_url":"https:\/\/challengemp.org"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.min.js?ver=3.35.0" id="jquery-yith-wcwl-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/envo-extra/js/envo.js?ver=1.8.25" id="envo-extra-js-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=8.9.5" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"ajaxurl":"https:\/\/challengemp.org\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=8.9.5" id="wc-order-attribution-js"></script>
+<script type="text/javascript" id="yith-woocompare-main-js-extra">
+/* <![CDATA[ */
+var yith_woocompare = {"ajaxurl":"\/?wc-ajax=%%endpoint%%","actionadd":"yith-woocompare-add-product","actionremove":"yith-woocompare-remove-product","actionview":"yith-woocompare-view-table","actionreload":"yith-woocompare-reload-product","add_nonce":"64267b11e2","remove_nonce":"49c2fe2ba0","reload_nonce":"a4f4b55b83","added_label":"A\u00f1adido","table_title":"Comparaci\u00f3n de productos","auto_open":"yes","loader":"https:\/\/challengemp.org\/wp-content\/plugins\/yith-woocommerce-compare\/assets\/images\/loader.gif","button_text":"Compare","cookie_name":"yith_woocompare_list","close_label":"Cerrar"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/yith-woocommerce-compare/assets/js/woocompare.min.js?ver=2.39.0" id="yith-woocompare-main-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/yith-woocommerce-compare/assets/js/jquery.colorbox-min.js?ver=1.4.21" id="jquery-colorbox-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/themes/entr/assets/js/bootstrap.min.js?ver=3.3.7" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/themes/entr/assets/js/entr.js?ver=1.0.4" id="entr-theme-js-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/themes/entr/assets/js/hc-offcanvas-nav.min.js?ver=1.0.4" id="hc-offcanvas-nav-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/mp-plugins-components.min.js?ver=7.5.1" id="wc_mercadopago_checkout_components-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/mp-checkout-update.min.js?ver=7.5.1" id="wc_mercadopago_checkout_update-js"></script>
+<script type="text/javascript" src="https://sdk.mercadopago.com/js/v2?ver=7.5.1" id="wc_mercadopago_sdk-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/custom/session.min.js?ver=7.5.1" id="wc_mercadopago_security_session-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/custom/mp-custom-page.min.js?ver=7.5.1" id="wc_mercadopago_custom_page-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/custom/mp-custom-elements.min.js?ver=7.5.1" id="wc_mercadopago_custom_elements-js"></script>
+<script type="text/javascript" id="wc_mercadopago_custom_checkout-js-extra">
+/* <![CDATA[ */
+var wc_mercadopago_custom_checkout_params = {"public_key":"TEST-5ed4b1c2-e41d-4aac-98ea-29819144a845","intl":"es-CO","site_id":"MCO","currency":"COP","theme":"spacr","location":"\/checkout","plugin_version":"7.5.1","platform_version":"8.9.5","cvvText":"d\u00edgitos","installmentObsFee":"Sin inter\u00e9s","installmentButton":"M\u00e1s opciones","bankInterestText":"Si corresponden intereses, ser\u00e1n aplicados por tu banco.","interestText":"Intereses","placeholders":{"issuer":"Banco","installments":"Cuotas","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"del dorso","front":"del frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero de tarjeta obligatorio","invalid_length":"N\u00famero de tarjeta inv\u00e1lido"},"cardholderName":{"221":"Nombre del titular obligatorio","316":"Nombre del titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Fecha de vencimiento inv\u00e1lido","invalid_length":"Fecha de vencimiento obligatorio","invalid_value":"Fecha de vencimiento inv\u00e1lido"},"securityCode":{"invalid_type":"C\u00f3digo de seguridad obligatorio","invalid_length":"C\u00f3digo de seguridad incompleto"}},"threeDsText":{"title_loading":"Te estamos llevando a validar la tarjeta","title_loading2":"con tu banco","text_loading":"Necesitamos confirmar que eres titular de la tarjeta.","title_loading_response":"Estamos recibiendo la respuesta de tu banco","title_frame":"Completa la validaci\u00f3n del banco para aprobar tu pago","tooltip_frame":"Mant\u00e9n abierta esta pantalla. Si la cierras, no podr\u00e1s retomar la validaci\u00f3n.","message_close":"<b>Por motivos de seguridad, tu pago fue rechazado<\/b><br>Te recomendamos pagar con el medio de pago y dispositivo que sueles usar para compras online."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"TEST-5ed4b1c2-e41d-4aac-98ea-29819144a845","intl":"es-CO","site_id":"MCO","currency":"COP","theme":"spacr","location":"\/checkout","plugin_version":"7.5.1","platform_version":"8.9.5","cvvText":"d\u00edgitos","installmentObsFee":"Sin inter\u00e9s","installmentButton":"M\u00e1s opciones","bankInterestText":"Si corresponden intereses, ser\u00e1n aplicados por tu banco.","interestText":"Intereses","placeholders":{"issuer":"Banco","installments":"Cuotas","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"del dorso","front":"del frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero de tarjeta obligatorio","invalid_length":"N\u00famero de tarjeta inv\u00e1lido"},"cardholderName":{"221":"Nombre del titular obligatorio","316":"Nombre del titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Fecha de vencimiento inv\u00e1lido","invalid_length":"Fecha de vencimiento obligatorio","invalid_value":"Fecha de vencimiento inv\u00e1lido"},"securityCode":{"invalid_type":"C\u00f3digo de seguridad obligatorio","invalid_length":"C\u00f3digo de seguridad incompleto"}},"threeDsText":{"title_loading":"Te estamos llevando a validar la tarjeta","title_loading2":"con tu banco","text_loading":"Necesitamos confirmar que eres titular de la tarjeta.","title_loading_response":"Estamos recibiendo la respuesta de tu banco","title_frame":"Completa la validaci\u00f3n del banco para aprobar tu pago","tooltip_frame":"Mant\u00e9n abierta esta pantalla. Si la cierras, no podr\u00e1s retomar la validaci\u00f3n.","message_close":"<b>Por motivos de seguridad, tu pago fue rechazado<\/b><br>Te recomendamos pagar con el medio de pago y dispositivo que sueles usar para compras online."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"TEST-5ed4b1c2-e41d-4aac-98ea-29819144a845","intl":"es-CO","site_id":"MCO","currency":"COP","theme":"spacr","location":"\/checkout","plugin_version":"7.5.1","platform_version":"8.9.5","cvvText":"d\u00edgitos","installmentObsFee":"Sin inter\u00e9s","installmentButton":"M\u00e1s opciones","bankInterestText":"Si corresponden intereses, ser\u00e1n aplicados por tu banco.","interestText":"Intereses","placeholders":{"issuer":"Banco","installments":"Cuotas","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"del dorso","front":"del frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero de tarjeta obligatorio","invalid_length":"N\u00famero de tarjeta inv\u00e1lido"},"cardholderName":{"221":"Nombre del titular obligatorio","316":"Nombre del titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Fecha de vencimiento inv\u00e1lido","invalid_length":"Fecha de vencimiento obligatorio","invalid_value":"Fecha de vencimiento inv\u00e1lido"},"securityCode":{"invalid_type":"C\u00f3digo de seguridad obligatorio","invalid_length":"C\u00f3digo de seguridad incompleto"}},"threeDsText":{"title_loading":"Te estamos llevando a validar la tarjeta","title_loading2":"con tu banco","text_loading":"Necesitamos confirmar que eres titular de la tarjeta.","title_loading_response":"Estamos recibiendo la respuesta de tu banco","title_frame":"Completa la validaci\u00f3n del banco para aprobar tu pago","tooltip_frame":"Mant\u00e9n abierta esta pantalla. Si la cierras, no podr\u00e1s retomar la validaci\u00f3n.","message_close":"<b>Por motivos de seguridad, tu pago fue rechazado<\/b><br>Te recomendamos pagar con el medio de pago y dispositivo que sueles usar para compras online."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"TEST-5ed4b1c2-e41d-4aac-98ea-29819144a845","intl":"es-CO","site_id":"MCO","currency":"COP","theme":"spacr","location":"\/checkout","plugin_version":"7.5.1","platform_version":"8.9.5","cvvText":"d\u00edgitos","installmentObsFee":"Sin inter\u00e9s","installmentButton":"M\u00e1s opciones","bankInterestText":"Si corresponden intereses, ser\u00e1n aplicados por tu banco.","interestText":"Intereses","placeholders":{"issuer":"Banco","installments":"Cuotas","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"del dorso","front":"del frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero de tarjeta obligatorio","invalid_length":"N\u00famero de tarjeta inv\u00e1lido"},"cardholderName":{"221":"Nombre del titular obligatorio","316":"Nombre del titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Fecha de vencimiento inv\u00e1lido","invalid_length":"Fecha de vencimiento obligatorio","invalid_value":"Fecha de vencimiento inv\u00e1lido"},"securityCode":{"invalid_type":"C\u00f3digo de seguridad obligatorio","invalid_length":"C\u00f3digo de seguridad incompleto"}},"threeDsText":{"title_loading":"Te estamos llevando a validar la tarjeta","title_loading2":"con tu banco","text_loading":"Necesitamos confirmar que eres titular de la tarjeta.","title_loading_response":"Estamos recibiendo la respuesta de tu banco","title_frame":"Completa la validaci\u00f3n del banco para aprobar tu pago","tooltip_frame":"Mant\u00e9n abierta esta pantalla. Si la cierras, no podr\u00e1s retomar la validaci\u00f3n.","message_close":"<b>Por motivos de seguridad, tu pago fue rechazado<\/b><br>Te recomendamos pagar con el medio de pago y dispositivo que sueles usar para compras online."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"TEST-5ed4b1c2-e41d-4aac-98ea-29819144a845","intl":"es-CO","site_id":"MCO","currency":"COP","theme":"spacr","location":"\/checkout","plugin_version":"7.5.1","platform_version":"8.9.5","cvvText":"d\u00edgitos","installmentObsFee":"Sin inter\u00e9s","installmentButton":"M\u00e1s opciones","bankInterestText":"Si corresponden intereses, ser\u00e1n aplicados por tu banco.","interestText":"Intereses","placeholders":{"issuer":"Banco","installments":"Cuotas","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"del dorso","front":"del frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero de tarjeta obligatorio","invalid_length":"N\u00famero de tarjeta inv\u00e1lido"},"cardholderName":{"221":"Nombre del titular obligatorio","316":"Nombre del titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Fecha de vencimiento inv\u00e1lido","invalid_length":"Fecha de vencimiento obligatorio","invalid_value":"Fecha de vencimiento inv\u00e1lido"},"securityCode":{"invalid_type":"C\u00f3digo de seguridad obligatorio","invalid_length":"C\u00f3digo de seguridad incompleto"}},"threeDsText":{"title_loading":"Te estamos llevando a validar la tarjeta","title_loading2":"con tu banco","text_loading":"Necesitamos confirmar que eres titular de la tarjeta.","title_loading_response":"Estamos recibiendo la respuesta de tu banco","title_frame":"Completa la validaci\u00f3n del banco para aprobar tu pago","tooltip_frame":"Mant\u00e9n abierta esta pantalla. Si la cierras, no podr\u00e1s retomar la validaci\u00f3n.","message_close":"<b>Por motivos de seguridad, tu pago fue rechazado<\/b><br>Te recomendamos pagar con el medio de pago y dispositivo que sueles usar para compras online."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"TEST-5ed4b1c2-e41d-4aac-98ea-29819144a845","intl":"es-CO","site_id":"MCO","currency":"COP","theme":"spacr","location":"\/checkout","plugin_version":"7.5.1","platform_version":"8.9.5","cvvText":"d\u00edgitos","installmentObsFee":"Sin inter\u00e9s","installmentButton":"M\u00e1s opciones","bankInterestText":"Si corresponden intereses, ser\u00e1n aplicados por tu banco.","interestText":"Intereses","placeholders":{"issuer":"Banco","installments":"Cuotas","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"del dorso","front":"del frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero de tarjeta obligatorio","invalid_length":"N\u00famero de tarjeta inv\u00e1lido"},"cardholderName":{"221":"Nombre del titular obligatorio","316":"Nombre del titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Fecha de vencimiento inv\u00e1lido","invalid_length":"Fecha de vencimiento obligatorio","invalid_value":"Fecha de vencimiento inv\u00e1lido"},"securityCode":{"invalid_type":"C\u00f3digo de seguridad obligatorio","invalid_length":"C\u00f3digo de seguridad incompleto"}},"threeDsText":{"title_loading":"Te estamos llevando a validar la tarjeta","title_loading2":"con tu banco","text_loading":"Necesitamos confirmar que eres titular de la tarjeta.","title_loading_response":"Estamos recibiendo la respuesta de tu banco","title_frame":"Completa la validaci\u00f3n del banco para aprobar tu pago","tooltip_frame":"Mant\u00e9n abierta esta pantalla. Si la cierras, no podr\u00e1s retomar la validaci\u00f3n.","message_close":"<b>Por motivos de seguridad, tu pago fue rechazado<\/b><br>Te recomendamos pagar con el medio de pago y dispositivo que sueles usar para compras online."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"TEST-5ed4b1c2-e41d-4aac-98ea-29819144a845","intl":"es-CO","site_id":"MCO","currency":"COP","theme":"spacr","location":"\/checkout","plugin_version":"7.5.1","platform_version":"8.9.5","cvvText":"d\u00edgitos","installmentObsFee":"Sin inter\u00e9s","installmentButton":"M\u00e1s opciones","bankInterestText":"Si corresponden intereses, ser\u00e1n aplicados por tu banco.","interestText":"Intereses","placeholders":{"issuer":"Banco","installments":"Cuotas","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"del dorso","front":"del frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero de tarjeta obligatorio","invalid_length":"N\u00famero de tarjeta inv\u00e1lido"},"cardholderName":{"221":"Nombre del titular obligatorio","316":"Nombre del titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Fecha de vencimiento inv\u00e1lido","invalid_length":"Fecha de vencimiento obligatorio","invalid_value":"Fecha de vencimiento inv\u00e1lido"},"securityCode":{"invalid_type":"C\u00f3digo de seguridad obligatorio","invalid_length":"C\u00f3digo de seguridad incompleto"}},"threeDsText":{"title_loading":"Te estamos llevando a validar la tarjeta","title_loading2":"con tu banco","text_loading":"Necesitamos confirmar que eres titular de la tarjeta.","title_loading_response":"Estamos recibiendo la respuesta de tu banco","title_frame":"Completa la validaci\u00f3n del banco para aprobar tu pago","tooltip_frame":"Mant\u00e9n abierta esta pantalla. Si la cierras, no podr\u00e1s retomar la validaci\u00f3n.","message_close":"<b>Por motivos de seguridad, tu pago fue rechazado<\/b><br>Te recomendamos pagar con el medio de pago y dispositivo que sueles usar para compras online."}};
+var wc_mercadopago_custom_checkout_params = {"public_key":"TEST-5ed4b1c2-e41d-4aac-98ea-29819144a845","intl":"es-CO","site_id":"MCO","currency":"COP","theme":"spacr","location":"\/checkout","plugin_version":"7.5.1","platform_version":"8.9.5","cvvText":"d\u00edgitos","installmentObsFee":"Sin inter\u00e9s","installmentButton":"M\u00e1s opciones","bankInterestText":"Si corresponden intereses, ser\u00e1n aplicados por tu banco.","interestText":"Intereses","placeholders":{"issuer":"Banco","installments":"Cuotas","cardExpirationDate":"mm\/aa"},"cvvHint":{"back":"del dorso","front":"del frente"},"input_helper_message":{"cardNumber":{"invalid_type":"N\u00famero de tarjeta obligatorio","invalid_length":"N\u00famero de tarjeta inv\u00e1lido"},"cardholderName":{"221":"Nombre del titular obligatorio","316":"Nombre del titular inv\u00e1lido"},"expirationDate":{"invalid_type":"Fecha de vencimiento inv\u00e1lido","invalid_length":"Fecha de vencimiento obligatorio","invalid_value":"Fecha de vencimiento inv\u00e1lido"},"securityCode":{"invalid_type":"C\u00f3digo de seguridad obligatorio","invalid_length":"C\u00f3digo de seguridad incompleto"}},"threeDsText":{"title_loading":"Te estamos llevando a validar la tarjeta","title_loading2":"con tu banco","text_loading":"Necesitamos confirmar que eres titular de la tarjeta.","title_loading_response":"Estamos recibiendo la respuesta de tu banco","title_frame":"Completa la validaci\u00f3n del banco para aprobar tu pago","tooltip_frame":"Mant\u00e9n abierta esta pantalla. Si la cierras, no podr\u00e1s retomar la validaci\u00f3n.","message_close":"<b>Por motivos de seguridad, tu pago fue rechazado<\/b><br>Te recomendamos pagar con el medio de pago y dispositivo que sueles usar para compras online."}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/custom/mp-custom-checkout.min.js?ver=7.5.1" id="wc_mercadopago_custom_checkout-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/ticket/mp-ticket-page.min.js?ver=7.5.1" id="wc_mercadopago_ticket_page-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/ticket/mp-ticket-elements.min.js?ver=7.5.1" id="wc_mercadopago_ticket_elements-js"></script>
+<script type="text/javascript" id="wc_mercadopago_ticket_checkout-js-extra">
+/* <![CDATA[ */
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MCO"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MCO"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MCO"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MCO"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MCO"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MCO"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MCO"};
+var wc_mercadopago_ticket_checkout_params = {"site_id":"MCO"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/ticket/mp-ticket-checkout.min.js?ver=7.5.1" id="wc_mercadopago_ticket_checkout-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/pse/mp-pse-page.min.js?ver=7.5.1" id="wc_mercadopago_pse_page-js"></script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/pse/mp-pse-elements.min.js?ver=7.5.1" id="wc_mercadopago_pse_elements-js"></script>
+<script type="text/javascript" id="wc_mercadopago_pse_checkout-js-extra">
+/* <![CDATA[ */
+var wc_mercadopago_pse_checkout_params = {"financial_placeholder":"Seleccione la instituci\u00f3n"};
+var wc_mercadopago_pse_checkout_params = {"financial_placeholder":"Seleccione la instituci\u00f3n"};
+var wc_mercadopago_pse_checkout_params = {"financial_placeholder":"Seleccione la instituci\u00f3n"};
+var wc_mercadopago_pse_checkout_params = {"financial_placeholder":"Seleccione la instituci\u00f3n"};
+var wc_mercadopago_pse_checkout_params = {"financial_placeholder":"Seleccione la instituci\u00f3n"};
+var wc_mercadopago_pse_checkout_params = {"financial_placeholder":"Seleccione la instituci\u00f3n"};
+var wc_mercadopago_pse_checkout_params = {"financial_placeholder":"Seleccione la instituci\u00f3n"};
+var wc_mercadopago_pse_checkout_params = {"financial_placeholder":"Seleccione la instituci\u00f3n"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/assets/js/checkouts/pse/mp-pse-checkout.min.js?ver=7.5.1" id="wc_mercadopago_pse_checkout-js"></script>
+<script type="text/javascript" src="https://stats.wp.com/e-202621.js" id="jetpack-stats-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="jetpack-stats-js-after">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"234168705\",\"post\":\"0\",\"tz\":\"0\",\"srv\":\"challengemp.org\",\"j\":\"1:13.3.1\"}") ]);
+_stq.push([ "clickTrackerInit", "234168705", "0" ]);
+/* ]]> */
+</script>
+            <ul class="site-header-cart list-unstyled">
+                <i class="la la-times-circle"></i>
+                <li>
+                    <div class="widget woocommerce widget_shopping_cart"><div class="widget_shopping_cart_content"></div></div>                </li>
+            </ul>
+            
+        </body>
+</html>
+              

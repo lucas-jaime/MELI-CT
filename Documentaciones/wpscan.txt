@@ -1,0 +1,494 @@
+┌──(kali㉿kali)-[~]
+└─$ wpscan --url https://challengemp.org/ --enumerate u,p,t --plugins-detection aggressive
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.22
+                               
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[i] Updating the Database ...
+[i] Update completed.
+
+[+] URL: https://challengemp.org/ [34.237.88.117]
+[+] Started: Sun May 24 14:44:39 2026
+
+Interesting Finding(s):
+
+[+] Headers
+ | Interesting Entry: Server: Apache
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[+] robots.txt found: https://challengemp.org/robots.txt
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[+] WordPress readme found: https://challengemp.org/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[+] The external WP-Cron seems to be enabled: https://challengemp.org/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+Fingerprinting the version - Time: 00:01:55 <===================================> (702 / 702) 100.00% Time: 00:01:55
+[i] The WordPress version could not be detected.
+
+[+] WordPress theme in use: entr
+ | Location: https://challengemp.org/wp-content/themes/entr/
+ | Last Updated: 2026-01-23T00:00:00.000Z
+ | Readme: https://challengemp.org/wp-content/themes/entr/readme.txt
+ | [!] The version is out of date, the latest version is 1.1.9
+ | Style URL: https://challengemp.org/wp-content/themes/entr/style.css?ver=6.5.8
+ | Style Name: Entr
+ | Style URI: https://envothemes.com/entr-free-wp-theme/
+ | Description: Entr is a fast, clean, lightweight, customizable and modern-looking free responsive multipurpose Wor...
+ | Author: EnvoThemes
+ | Author URI: https://envothemes.com/
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ | Confirmed By: Css Style In 404 Page (Passive Detection)
+ |
+ | Version: 1.1.5 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://challengemp.org/wp-content/themes/entr/style.css?ver=6.5.8, Match: 'Version: 1.1.5'
+
+[+] Enumerating Most Popular Plugins (via Aggressive Methods)
+ Checking Known Locations - Time: 00:04:26 <==================================> (1498 / 1498) 100.00% Time: 00:04:26
+[+] Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[i] Plugin(s) Identified:
+
+[+] akismet
+ | Location: https://challengemp.org/wp-content/plugins/akismet/
+ | Latest Version: 5.7
+ | Last Updated: 2026-04-23T22:34:00.000Z
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/akismet/, status: 403
+ |
+ | The version could not be determined.
+
+[+] all-in-one-seo-pack
+ | Location: https://challengemp.org/wp-content/plugins/all-in-one-seo-pack/
+ | Last Updated: 2026-05-18T15:33:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/all-in-one-seo-pack/readme.txt
+ | [!] The version is out of date, the latest version is 4.9.7.2
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/all-in-one-seo-pack/, status: 403
+ |
+ | Version: 4.6.2 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/all-in-one-seo-pack/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/all-in-one-seo-pack/readme.txt
+
+[+] all-in-one-wp-migration
+ | Location: https://challengemp.org/wp-content/plugins/all-in-one-wp-migration/
+ | Last Updated: 2026-04-08T17:54:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/all-in-one-wp-migration/readme.txt
+ | [!] The version is out of date, the latest version is 7.105
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/all-in-one-wp-migration/, status: 403
+ |
+ | Version: 7.81 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/all-in-one-wp-migration/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/all-in-one-wp-migration/readme.txt
+
+[+] amp
+ | Location: https://challengemp.org/wp-content/plugins/amp/
+ | Last Updated: 2025-04-10T16:53:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/amp/readme.txt
+ | [!] The version is out of date, the latest version is 2.5.5
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/amp/, status: 403
+ |
+ | Version: 2.5.3 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/amp/readme.txt
+
+[+] elementor
+ | Location: https://challengemp.org/wp-content/plugins/elementor/
+ | Last Updated: 2026-05-19T12:33:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/elementor/readme.txt
+ | [!] The version is out of date, the latest version is 4.0.9
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/elementor/, status: 403
+ |
+ | Version: 3.21.0 (100% confidence)
+ | Found By: Javascript Comment (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/elementor/assets/js/admin-feedback.js, Match: 'elementor - v3.21.0'
+ | Confirmed By: Style Comment (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/elementor/assets/css/admin.min.css, Match: 'elementor - v3.21.0'
+
+[+] envo-extra
+ | Location: https://challengemp.org/wp-content/plugins/envo-extra/
+ | Last Updated: 2026-05-08T08:46:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/envo-extra/readme.txt
+ | [!] The version is out of date, the latest version is 1.9.20
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/envo-extra/, status: 403
+ |
+ | Version: 1.8.25 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://challengemp.org/wp-content/plugins/envo-extra/css/style.css?ver=1.8.25
+ |  - https://challengemp.org/wp-content/plugins/envo-extra/js/envo.js?ver=1.8.25
+ | Confirmed By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/envo-extra/readme.txt
+
+[+] google-analytics-for-wordpress
+ | Location: https://challengemp.org/wp-content/plugins/google-analytics-for-wordpress/
+ | Last Updated: 2026-05-20T15:54:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+ | [!] The version is out of date, the latest version is 10.2.0
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/google-analytics-for-wordpress/, status: 403
+ |
+ | Version: 8.26.0 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+
+[+] google-listings-and-ads
+ | Location: https://challengemp.org/wp-content/plugins/google-listings-and-ads/
+ | Last Updated: 2026-05-19T17:52:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/google-listings-and-ads/readme.txt
+ | [!] The version is out of date, the latest version is 3.7.0
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/google-listings-and-ads/, status: 403
+ |
+ | Version: 2.7.2 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/google-listings-and-ads/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/google-listings-and-ads/readme.txt
+
+[+] jetpack
+ | Location: https://challengemp.org/wp-content/plugins/jetpack/
+ | Last Updated: 2026-05-05T17:28:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/jetpack/readme.txt
+ | [!] The version is out of date, the latest version is 15.8
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/jetpack/, status: 403
+ |
+ | Version: 13.3.1 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/jetpack/readme.txt
+ | Confirmed By: Change Log (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/jetpack/CHANGELOG.md, Match: '## 13.3.1 -'
+
+[+] mailpoet
+ | Location: https://challengemp.org/wp-content/plugins/mailpoet/
+ | Last Updated: 2026-05-19T12:33:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/mailpoet/readme.txt
+ | [!] The version is out of date, the latest version is 5.27.0
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/mailpoet/, status: 200
+ |
+ | Version: 4.51.2 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/mailpoet/readme.txt
+
+[+] pinterest-for-woocommerce
+ | Location: https://challengemp.org/wp-content/plugins/pinterest-for-woocommerce/
+ | Last Updated: 2026-03-06T11:39:00.000Z
+ | [!] The version is out of date, the latest version is 1.4.25
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/pinterest-for-woocommerce/, status: 200
+ |
+ | Version: 1.0.0 (60% confidence)
+ | Found By: Change Log (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/pinterest-for-woocommerce/changelog.txt, Match: '= 1.0.0'
+
+[+] simple-tags
+ | Location: https://challengemp.org/wp-content/plugins/simple-tags/
+ | Last Updated: 2026-05-21T18:23:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/simple-tags/readme.txt
+ | [!] The version is out of date, the latest version is 3.50.0
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/simple-tags/, status: 403
+ |
+ | Version: 3.21.0 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/simple-tags/readme.txt
+
+[+] tiktok-for-business
+ | Location: https://challengemp.org/wp-content/plugins/tiktok-for-business/
+ | Last Updated: 2026-04-09T20:57:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/tiktok-for-business/README.txt
+ | [!] The version is out of date, the latest version is 1.4.0
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/tiktok-for-business/, status: 200
+ |
+ | Version: 1.2.6 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/tiktok-for-business/README.txt
+
+[+] w3-total-cache
+ | Location: https://challengemp.org/wp-content/plugins/w3-total-cache/
+ | Last Updated: 2026-05-19T19:09:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/w3-total-cache/readme.txt
+ | [!] The version is out of date, the latest version is 2.9.4
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/w3-total-cache/, status: 200
+ |
+ | Version: 2.7.2 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/w3-total-cache/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/w3-total-cache/readme.txt
+
+[+] woocommerce
+ | Location: https://challengemp.org/wp-content/plugins/woocommerce/
+ | Last Updated: 2026-04-14T12:01:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/woocommerce/readme.txt
+ | [!] The version is out of date, the latest version is 10.7.0
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/woocommerce/, status: 403
+ |
+ | Version: 8.9.5 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://challengemp.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=8.9.5
+ |  - https://challengemp.org/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=8.9.5
+ |  - https://challengemp.org/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=8.9.5
+ |  - https://challengemp.org/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.9.5
+ |  - https://challengemp.org/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.9.5
+ |  - https://challengemp.org/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=8.9.5
+ | Confirmed By: Meta Generator (Passive Detection)
+ |  - https://challengemp.org/, Match: 'WooCommerce 8.9.5'
+
+[+] woocommerce-mercadopago
+ | Location: https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/
+ | Last Updated: 2026-05-11T19:09:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/readme.txt
+ | [!] The version is out of date, the latest version is 8.7.21
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/, status: 200
+ |
+ | Version: 7.5.1 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/woocommerce-mercadopago/readme.txt
+
+[+] wordpress-importer
+ | Location: https://challengemp.org/wp-content/plugins/wordpress-importer/
+ | Last Updated: 2025-10-10T20:55:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/wordpress-importer/readme.txt
+ | [!] The version is out of date, the latest version is 0.9.4
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/wordpress-importer/, status: 403
+ |
+ | Version: 0.8.2 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/wordpress-importer/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/wordpress-importer/readme.txt
+
+[+] wp-mail-smtp
+ | Location: https://challengemp.org/wp-content/plugins/wp-mail-smtp/
+ | Last Updated: 2026-04-16T15:13:00.000Z
+ | Readme: https://challengemp.org/wp-content/plugins/wp-mail-smtp/readme.txt
+ | [!] The version is out of date, the latest version is 4.8.0
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/wp-mail-smtp/, status: 403
+ |
+ | Version: 4.0.1 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/wp-mail-smtp/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/wp-mail-smtp/readme.txt
+
+[+] yith-woocommerce-compare
+ | Location: https://challengemp.org/wp-content/plugins/yith-woocommerce-compare/
+ | Latest Version: 3.10.0
+ | Last Updated: 2026-05-14T12:16:00.000Z
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/yith-woocommerce-compare/, status: 403
+ |
+ | The version could not be determined.
+
+[+] yith-woocommerce-wishlist
+ | Location: https://challengemp.org/wp-content/plugins/yith-woocommerce-wishlist/
+ | Latest Version: 4.15.0
+ | Last Updated: 2026-05-14T14:44:00.000Z
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/plugins/yith-woocommerce-wishlist/, status: 403
+ |
+ | The version could not be determined.
+
+[+] Enumerating Most Popular Themes (via Passive and Aggressive Methods)
+ Checking Known Locations - Time: 00:01:17 <====================================> (400 / 400) 100.00% Time: 00:01:17
+[+] Checking Theme Versions (via Passive and Aggressive Methods)
+
+[i] Theme(s) Identified:
+
+[+] entr
+ | Location: https://challengemp.org/wp-content/themes/entr/
+ | Last Updated: 2026-01-23T00:00:00.000Z
+ | Readme: https://challengemp.org/wp-content/themes/entr/readme.txt
+ | [!] The version is out of date, the latest version is 1.1.9
+ | Style URL: https://challengemp.org/wp-content/themes/entr/style.css
+ | Style Name: Entr
+ | Style URI: https://envothemes.com/entr-free-wp-theme/
+ | Description: Entr is a fast, clean, lightweight, customizable and modern-looking free responsive multipurpose Wor...
+ | Author: EnvoThemes
+ | Author URI: https://envothemes.com/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 1.1.5 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://challengemp.org/wp-content/themes/entr/style.css, Match: 'Version: 1.1.5'
+
+[+] spacr
+ | Location: https://challengemp.org/wp-content/themes/spacr/
+ | Last Updated: 2026-01-23T00:00:00.000Z
+ | Readme: https://challengemp.org/wp-content/themes/spacr/readme.txt
+ | [!] The version is out of date, the latest version is 1.0.6
+ | Style URL: https://challengemp.org/wp-content/themes/spacr/style.css
+ | Style Name: Spacr
+ | Style URI: https://envothemes.com/spacr-free-wp-theme/
+ | Description: Spacr is a fast, clean, lightweight, customizable and modern-looking free responsive WooCommerce Wor...
+ | Author: EnvoThemes
+ | Author URI: https://envothemes.com/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By:
+ |  Urls In 404 Page (Passive Detection)
+ |  Known Locations (Aggressive Detection)
+ |   - https://challengemp.org/wp-content/themes/spacr/, status: 403
+ |
+ | Version: 1.0.4 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://challengemp.org/wp-content/themes/spacr/style.css, Match: 'Version: 1.0.4'
+
+[+] twentytwentyfour
+ | Location: https://challengemp.org/wp-content/themes/twentytwentyfour/
+ | Last Updated: 2026-05-20T00:00:00.000Z
+ | Readme: https://challengemp.org/wp-content/themes/twentytwentyfour/readme.txt
+ | [!] The version is out of date, the latest version is 1.5
+ | Style URL: https://challengemp.org/wp-content/themes/twentytwentyfour/style.css
+ | Style Name: Twenty Twenty-Four
+ | Style URI: https://wordpress.org/themes/twentytwentyfour/
+ | Description: Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collecti...
+ | Author: the WordPress team
+ | Author URI: https://wordpress.org
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/themes/twentytwentyfour/, status: 403
+ |
+ | Version: 1.1 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://challengemp.org/wp-content/themes/twentytwentyfour/style.css, Match: 'Version: 1.1'
+
+[+] twentytwentythree
+ | Location: https://challengemp.org/wp-content/themes/twentytwentythree/
+ | Last Updated: 2024-11-13T00:00:00.000Z
+ | Readme: https://challengemp.org/wp-content/themes/twentytwentythree/readme.txt
+ | [!] The version is out of date, the latest version is 1.6
+ | Style URL: https://challengemp.org/wp-content/themes/twentytwentythree/style.css
+ | Style Name: Twenty Twenty-Three
+ | Style URI: https://wordpress.org/themes/twentytwentythree
+ | Description: Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6....
+ | Author: the WordPress team
+ | Author URI: https://wordpress.org
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/themes/twentytwentythree/, status: 403
+ |
+ | Version: 1.4 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://challengemp.org/wp-content/themes/twentytwentythree/style.css, Match: 'Version: 1.4'
+
+[+] twentytwentytwo
+ | Location: https://challengemp.org/wp-content/themes/twentytwentytwo/
+ | Last Updated: 2025-12-03T00:00:00.000Z
+ | Readme: https://challengemp.org/wp-content/themes/twentytwentytwo/readme.txt
+ | [!] The version is out of date, the latest version is 2.1
+ | Style URL: https://challengemp.org/wp-content/themes/twentytwentytwo/style.css
+ | Style Name: Twenty Twenty-Two
+ | Style URI: https://wordpress.org/themes/twentytwentytwo/
+ | Description: Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a...
+ | Author: the WordPress team
+ | Author URI: https://wordpress.org/
+ |
+ | Found By: Known Locations (Aggressive Detection)
+ |  - https://challengemp.org/wp-content/themes/twentytwentytwo/, status: 200
+ |
+ | Version: 1.7 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://challengemp.org/wp-content/themes/twentytwentytwo/style.css, Match: 'Version: 1.7'
+
+[+] Enumerating Users (via Passive and Aggressive Methods)
+ Brute Forcing Author IDs - Time: 00:00:07 <======================================> (10 / 10) 100.00% Time: 00:00:07
+
+[i] User(s) Identified:
+
+[+] user
+ | Found By: Rss Generator (Passive Detection)
+ | Confirmed By:
+ |  Wp Json Api (Aggressive Detection)
+ |   - https://challengemp.org/wp-json/wp/v2/users/?per_page=100&page=1
+ |  Oembed API - Author URL (Aggressive Detection)
+ |   - https://challengemp.org/wp-json/oembed/1.0/embed?url=https://challengemp.org/&format=json
+ |  Rss Generator (Aggressive Detection)
+ |  Author Sitemap (Aggressive Detection)
+ |   - https://challengemp.org/wp-sitemap-users-1.xml
+ |  Author Id Brute Forcing - Author Pattern (Aggressive Detection)
+
+[+] subscriberuser
+ | Found By: Author Id Brute Forcing - Author Pattern (Aggressive Detection)
+
+[+] admin
+ | Found By: Author Id Brute Forcing - Author Pattern (Aggressive Detection)
+
+[+] fulluser
+ | Found By: Author Id Brute Forcing - Author Pattern (Aggressive Detection)
+
+[+] pentest-admin
+ | Found By: Author Id Brute Forcing - Author Pattern (Aggressive Detection)
+
+[!] No WPScan API Token given, as a result vulnerability data has not been output.
+[!] You can get a free API token with 25 daily requests by registering at https://wpscan.com/register
+
+[+] Finished: Sun May 24 14:53:16 2026
+[+] Requests Done: 3340
+[+] Cached Requests: 66
+[+] Data Sent: 948.638 KB
+[+] Data Received: 55.196 MB
+[+] Memory used: 335.16 MB
+[+] Elapsed time: 00:08:37
+                               

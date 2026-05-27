@@ -1,0 +1,221 @@
+┌──(kali㉿kali)-[~]
+└─$ testssl https://challengemp.org/
+
+#####################################################################
+  testssl version 3.2.2 from https://testssl.sh/
+
+  This program is free software. Distribution and modification under
+  GPLv2 permitted. USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!
+
+  Please file bugs @ https://testssl.sh/bugs/
+#####################################################################
+
+  Using OpenSSL 3.6.2 (Apr 11 2026)  [~103 ciphers]
+  on kali:/usr/bin/openssl
+
+ Start 2026-05-24 18:06:15        -->> 34.237.88.117:443 (challengemp.org) <<--
+
+ rDNS (34.237.88.117):   ec2-34-237-88-117.compute-1.amazonaws.com.
+ Service detected:       HTTP
+
+ Testing protocols via sockets except NPN+ALPN 
+
+ SSLv2      not offered (OK)
+ SSLv3      not offered (OK)
+ TLS 1      not offered
+ TLS 1.1    not offered
+ TLS 1.2    offered (OK)
+ TLS 1.3    offered (OK): final
+ NPN/SPDY   not offered
+ ALPN/HTTP2 http/1.1 (offered)
+
+ Testing cipher categories 
+
+ NULL ciphers (no encryption)                      not offered (OK)
+ Anonymous NULL Ciphers (no authentication)        not offered (OK)
+ Export ciphers (w/o ADH+NULL)                     not offered (OK)
+ LOW: 64 Bit + DES, RC[2,4], MD5 (w/o export)      not offered (OK)
+ Triple DES Ciphers / IDEA                         not offered
+ Obsoleted CBC ciphers (AES, ARIA etc.)            offered
+ Strong encryption (AEAD ciphers) with no FS       not offered
+ Forward Secrecy strong encryption (AEAD ciphers)  offered (OK)
+
+
+ Testing server's cipher preferences 
+
+Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Cipher Suite Name (IANA/RFC)
+-----------------------------------------------------------------------------------------------------------------------------
+SSLv2
+ - 
+SSLv3
+ - 
+TLSv1
+ - 
+TLSv1.1
+ - 
+TLSv1.2 (server order)
+ xc02c   ECDHE-ECDSA-AES256-GCM-SHA384     ECDH 253   AESGCM      256      TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384            
+ xc02b   ECDHE-ECDSA-AES128-GCM-SHA256     ECDH 253   AESGCM      128      TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256            
+ xc024   ECDHE-ECDSA-AES256-SHA384         ECDH 253   AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384            
+ xc073   ECDHE-ECDSA-CAMELLIA256-SHA384    ECDH 253   Camellia    256      TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384       
+ xc023   ECDHE-ECDSA-AES128-SHA256         ECDH 253   AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256            
+ xc072   ECDHE-ECDSA-CAMELLIA128-SHA256    ECDH 253   Camellia    128      TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256       
+ xcca9   ECDHE-ECDSA-CHACHA20-POLY1305     ECDH 253   ChaCha20    256      TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256      
+ xc0af   ECDHE-ECDSA-AES256-CCM8           ECDH 253   AESCCM8     256      TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8                 
+ xc0ad   ECDHE-ECDSA-AES256-CCM            ECDH 253   AESCCM      256      TLS_ECDHE_ECDSA_WITH_AES_256_CCM                   
+ xc05d   ECDHE-ECDSA-ARIA256-GCM-SHA384    ECDH 253   ARIAGCM     256      TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384           
+ xc0ae   ECDHE-ECDSA-AES128-CCM8           ECDH 253   AESCCM8     128      TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8                 
+ xc0ac   ECDHE-ECDSA-AES128-CCM            ECDH 253   AESCCM      128      TLS_ECDHE_ECDSA_WITH_AES_128_CCM                   
+ xc05c   ECDHE-ECDSA-ARIA128-GCM-SHA256    ECDH 253   ARIAGCM     128      TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256           
+ xc00a   ECDHE-ECDSA-AES256-SHA            ECDH 253   AES         256      TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA               
+ xc009   ECDHE-ECDSA-AES128-SHA            ECDH 253   AES         128      TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA               
+TLSv1.3 (server order)
+ x1302   TLS_AES_256_GCM_SHA384            ECDH 253   AESGCM      256      TLS_AES_256_GCM_SHA384                             
+ x1303   TLS_CHACHA20_POLY1305_SHA256      ECDH 253   ChaCha20    256      TLS_CHACHA20_POLY1305_SHA256                       
+ x1301   TLS_AES_128_GCM_SHA256            ECDH 253   AESGCM      128      TLS_AES_128_GCM_SHA256                             
+
+ Has server cipher order?     yes (OK) -- TLS 1.3 and below
+
+
+ Testing robust forward secrecy (FS) -- omitting Null Authentication/Encryption, 3DES, RC4 
+
+ FS is offered (OK)           TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-ECDSA-AES256-GCM-SHA384
+                              ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-CHACHA20-POLY1305
+                              ECDHE-ECDSA-AES256-CCM8 ECDHE-ECDSA-AES256-CCM ECDHE-ECDSA-CAMELLIA256-SHA384
+                              ECDHE-ECDSA-ARIA256-GCM-SHA384 TLS_AES_128_GCM_SHA256 ECDHE-ECDSA-AES128-GCM-SHA256
+                              ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES128-CCM8
+                              ECDHE-ECDSA-AES128-CCM ECDHE-ECDSA-CAMELLIA128-SHA256 ECDHE-ECDSA-ARIA128-GCM-SHA256 
+ Elliptic curves offered:     prime256v1 secp384r1 secp521r1 X25519 X448 
+ Finite field group:          ffdhe2048 ffdhe3072 ffdhe4096 ffdhe6144 ffdhe8192
+ TLS 1.2 sig_algs offered:    ECDSA+SHA256 ECDSA+SHA384 ECDSA+SHA512 ECDSA+SHA224 
+ TLS 1.3 sig_algs offered:    ECDSA+SHA256 
+
+ Testing server defaults (Server Hello) 
+
+ TLS extensions (standard)    "server name/#0" "max fragment length/#1" "EC point formats/#11"
+                              "application layer protocol negotiation/#16" "encrypt-then-mac/#22"
+                              "extended master secret/#23" "session ticket/#35" "supported versions/#43"
+                              "key share/#51" "renegotiation info/#65281"
+ Session Ticket RFC 5077 hint 300 seconds, session tickets keys seems to be rotated < daily
+ SSL Session ID support       yes
+ Session Resumption           Tickets: yes, ID: yes
+ TLS clock skew               Random values, no fingerprinting possible 
+ Certificate Compression      none
+ Client Authentication        none
+ Signature Algorithm          ECDSA with SHA384
+ Server key size              EC 256 bits (curve P-256)
+ Server key usage             Digital Signature
+ Server extended key usage    TLS Web Server Authentication
+ Serial                       05A9D8B40FCEAD2B89B49DBCDFDDF342E9F4 (OK: length 18)
+ Fingerprints                 SHA1 616B1FB1B4182334BD7E75F847DCD102DCAEF800
+                              SHA256 73877C66843139F2D4E8F0C3BF49DF65BDC0B08519E1E2DC31BFC0E8D54C6018
+ Common Name (CN)             challengemp.org 
+ subjectAltName (SAN)         challengemp.org www.challengemp.org 
+ Trust (hostname)             Ok via SAN and CN (same w/o SNI)
+ Chain of trust               Ok   
+ EV cert (experimental)       no 
+ Certificate Validity (UTC)   61 >= 30 days (2026-04-26 07:33 --> 2026-07-25 07:33)
+ ETS/"eTLS", visibility info  not present
+ Certificate Revocation List  http://e8.c.lencr.org/117.crl
+ OCSP URI                     --
+ OCSP stapling                not offered
+ OCSP must staple extension   --
+ DNS CAA RR (experimental)    not offered
+ Certificate Transparency     yes (certificate extension)
+ Certificates provided        2
+ Issuer                       E8 (Let's Encrypt from US)
+ Intermediate cert validity   #1: ok > 40 days (2027-03-12 23:59). E8 <-- ISRG Root X1
+ Intermediate Bad OCSP (exp.) Ok
+
+
+ Testing HTTP header response @ "/" 
+
+ HTTP Status Code             200 OK
+ HTTP clock skew              -1 sec from localtime
+ Strict Transport Security    not offered
+ Public Key Pinning           --
+ Server banner                Apache
+ Application banner           --
+ Cookie(s)                    (none issued at "/")
+ Security headers             --
+ Reverse Proxy banner         --
+
+
+ Testing vulnerabilities 
+
+ Heartbleed (CVE-2014-0160)                not vulnerable (OK), no heartbeat extension
+ CCS (CVE-2014-0224)                       not vulnerable (OK)
+ Ticketbleed (CVE-2016-9244), experiment.  not vulnerable (OK)
+ ROBOT                                     Server does not support any cipher suites that use RSA key transport
+ Secure Renegotiation (RFC 5746)           supported (OK)
+ Secure Client-Initiated Renegotiation     not vulnerable (OK)
+ CRIME, TLS (CVE-2012-4929)                not vulnerable (OK)
+ BREACH (CVE-2013-3587)                    potentially NOT ok, "gzip" HTTP compression detected. - only supplied "/" tested
+                                           Can be ignored for static pages or if no secrets in the page
+ POODLE, SSL (CVE-2014-3566)               not vulnerable (OK), no SSLv3 support
+ TLS_FALLBACK_SCSV (RFC 7507)              No fallback possible (OK), no protocol below TLS 1.2 offered
+ SWEET32 (CVE-2016-2183, CVE-2016-6329)    not vulnerable (OK)
+ FREAK (CVE-2015-0204)                     not vulnerable (OK)
+ DROWN (CVE-2016-0800, CVE-2016-0703)      not vulnerable on this host and port (OK)
+                                           no RSA certificate, thus certificate can't be used with SSLv2 elsewhere
+ LOGJAM (CVE-2015-4000), experimental      not vulnerable (OK): no DH EXPORT ciphers, no DH key detected with <= TLS 1.2
+ BEAST (CVE-2011-3389)                     not vulnerable (OK), no SSL3 or TLS1
+ LUCKY13 (CVE-2013-0169), experimental     potentially VULNERABLE, uses obsolete cipher block chaining ciphers with TLS, see server prefs.
+ Winshock (CVE-2014-6321), experimental    not vulnerable (OK)
+ RC4 (CVE-2013-2566, CVE-2015-2808)        no RC4 ciphers detected (OK)
+
+
+ Running client simulations (HTTP) via sockets 
+
+ Browser                      Protocol  Cipher Suite Name (OpenSSL)       Forward Secrecy
+------------------------------------------------------------------------------------------------
+ Android 7.0 (native)         TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     256 bit ECDH (P-256)
+ Android 8.1 (native)         TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     253 bit ECDH (X25519)
+ Android 9.0 (native)         TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Android 10.0 (native)        TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Android 11/12 (native)       TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Android 13/14 (native)       TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Android 15 (native)          TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Chrome 101 (Win 10)          TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Chromium 137 (Win 11)        TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Firefox 100 (Win 10)         TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Firefox 137 (Win 11)         TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ IE 8 Win 7                   No connection
+ IE 11 Win 7                  TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     256 bit ECDH (P-256)
+ IE 11 Win 8.1                TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     256 bit ECDH (P-256)
+ IE 11 Win Phone 8.1          TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     256 bit ECDH (P-256)
+ IE 11 Win 10                 TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     256 bit ECDH (P-256)
+ Edge 15 Win 10               TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     253 bit ECDH (X25519)
+ Edge 101 Win 10 21H2         TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Edge 133 Win 11 23H2         TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Safari 18.4 (iOS 18.4)       TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Safari 15.4 (macOS 12.3.1)   TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Safari 18.4 (macOS 15.4)     TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Java 7u25                    No connection
+ Java 8u442 (OpenJDK)         TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Java 11.0.2 (OpenJDK)        TLSv1.3   TLS_AES_256_GCM_SHA384            256 bit ECDH (P-256)
+ Java 17.0.3 (OpenJDK)        TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Java 21.0.6 (OpenJDK)        TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ go 1.17.8                    TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ LibreSSL 3.3.6 (macOS)       TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ OpenSSL 1.0.2e               TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     256 bit ECDH (P-256)
+ OpenSSL 1.1.1d (Debian)      TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ OpenSSL 3.0.15 (Debian)      TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ OpenSSL 3.5.0 (git)          TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+ Apple Mail (16.0)            TLSv1.2   ECDHE-ECDSA-AES256-GCM-SHA384     256 bit ECDH (P-256)
+ Thunderbird (91.9)           TLSv1.3   TLS_AES_256_GCM_SHA384            253 bit ECDH (X25519)
+
+
+ Rating (experimental) 
+
+ Rating specs (not complete)  SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)
+ Specification documentation  https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide
+ Protocol Support (weighted)  100 (30)
+ Key Exchange     (weighted)  100 (30)
+ Cipher Strength  (weighted)  90 (36)
+ Final Score                  96
+ Overall Grade                A+
+
+ Done 2026-05-24 18:09:21 [ 188s] -->> 34.237.88.117:443 (challengemp.org) <<--
+
+
